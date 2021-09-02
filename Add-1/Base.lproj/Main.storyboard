@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -22,53 +22,53 @@
                         <viewControllerLayoutGuide type="bottom" id="Z0n-AM-HbH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="WBM-bU-bbB">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="ZaV-Xn-V9W">
-                                <rect key="frame" x="20" y="50" width="120" height="50"/>
+                                <rect key="frame" x="20" y="6" width="120" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="9zc-x5-z0d"/>
                                     <constraint firstAttribute="width" constant="120" id="IEd-no-RPA"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="time" translatesAutoresizingMaskIntoConstraints="NO" id="fEZ-bn-Hwd">
-                                <rect key="frame" x="278" y="50" width="149" height="53"/>
+                                <rect key="frame" x="170" y="6" width="149" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="Osi-uB-Q8u"/>
                                     <constraint firstAttribute="width" constant="149" id="yWI-hg-g7C"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaD-pR-MZ4">
-                                <rect key="frame" x="305" y="63.666666666666664" width="55.333333333333314" height="25.666666666666664"/>
+                                <rect key="frame" x="195" y="19" width="59" height="27"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="number" translatesAutoresizingMaskIntoConstraints="NO" id="Kqp-Aw-9vc">
-                                <rect key="frame" x="64" y="163" width="300" height="122"/>
+                                <rect key="frame" x="10" y="119" width="300" height="122"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="BUf-aA-GjX"/>
                                     <constraint firstAttribute="height" constant="122" id="pQd-0c-5bK"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFe-SE-JDt">
-                                <rect key="frame" x="136" y="183.33333333333334" width="156" height="81.666666666666657"/>
+                                <rect key="frame" x="86" y="138" width="148" height="84"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="70"/>
                                 <color key="textColor" red="0.52941176470588236" green="0.30980392156862746" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZk-Gq-ilf">
-                                <rect key="frame" x="55.666666666666657" y="62.333333333333336" width="49" height="25.666666666666664"/>
+                                <rect key="frame" x="56.5" y="17.5" width="47" height="27"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="XaM-1y-E14">
-                                <rect key="frame" x="89" y="305" width="250" height="110"/>
+                                <rect key="frame" x="35" y="261" width="250" height="110"/>
                                 <color key="backgroundColor" red="0.0" green="0.75019453460094976" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="46F-YA-irI"/>
@@ -81,8 +81,8 @@
                                     <action selector="inputFieldDidChange" destination="BYZ-38-t0r" eventType="editingChanged" id="u06-D2-iAm"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add 1 to each of the digits. So, 1357 becomes 2468." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QT-Je-F9F">
-                                <rect key="frame" x="26.666666666666657" y="777" width="375" height="65"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add 1 to each of the digits. So, 1357 becomes 2468." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QT-Je-F9F">
+                                <rect key="frame" x="-27.5" y="453" width="375" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="78o-2L-e6H"/>
                                     <constraint firstAttribute="height" constant="65" id="Lbj-HG-BiS"/>
@@ -137,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="34.782608695652179" y="93.75"/>
+            <point key="canvasLocation" x="33.644859813084111" y="93.30453563714903"/>
         </scene>
     </scenes>
     <resources>
